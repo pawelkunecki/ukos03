@@ -1,14 +1,15 @@
 #inlcude <iostream>
 
 int main(){
-	int first,sec,third;
-	std::cout<<"Podaj liczby do obliczenia sredniej";
-	std::cin>>first;
-	std::cin>>sec;
-	std::cin>>third;
+	int a,b,c,d;
+	std::cout<<"Podaj 4 liczby do obliczenia sredniej";
+	std::cin>>a;
+	std::cin>>b;
+	std::cin>>c;
+	std::cin>>d;
 
 	int srednia;
-	srednia=(first+sec+third)/3;
+	srednia=(a+b+c+d)/4;
 
 	std::cout<<"Srednia z liczb wynosi: "<<srednia;
 
